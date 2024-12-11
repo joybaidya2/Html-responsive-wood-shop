@@ -120,3 +120,5 @@ updateSlider();
 startAutoSlide();
 
 //Here the main work is when we click the order button then show the full show details page.
+
+

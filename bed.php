@@ -42,7 +42,7 @@
                      class="h-[150px] sm:h-[200px] w-full object-cover rounded-md">
                      <div class="mt-2">
                         <h1 class="font-bold text-2xl text-orange-700">DreamNest</h1>
-                        <h2 class="font-medium text-lg text-orange-500">RS:14500.00</h2>
+                        <h2 class="font-medium text-lg text-orange-500">Tk:14500.00</h2>
                      </div>
                      <div>
                         <button class="mt-2 bg-orange-600 px-12 py-1 rounded-lg text-white font-medium text-xl hover:bg-orange-800"  onclick="orderNow(1)">Order Now</button>
@@ -55,11 +55,11 @@
                      class="h-[150px] sm:h-[200px] w-full object-cover rounded-md">
                      <div class="mt-2">
                         <h1 class="font-bold text-2xl text-orange-700">Serenity Haven</h1>
-                        <h2 class="font-medium text-lg text-orange-500">RS:13500.00</h2>
+                        <h2 class="font-medium text-lg text-orange-500">Tk:13500.00</h2>
                      </div>
                      <div>
                         <button class="mt-2 bg-orange-600 px-12 py-1 rounded-lg text-white font-medium text-xl hover:bg-orange-800" onclick="orderNow(2)" >Order Now</button>
-                        <button class="mt-2 bg-amber-400 px-12 py-1 rounded-lg text-black font-medium text-xl hover:bg-amber-200"><a href="#">Add to cart</a></button>
+                        <button class="mt-2 bg-amber-400 px-12 py-1 rounded-lg text-black font-medium text-xl hover:bg-amber-200" onclick="addToCart('Serenity Haven', 13500.00 )">Add to cart</button>
                      </div>
             </div>
             <div class="bg-white p-4 sm:p-6 rounded-lg shadow-md text-center border hover:shadow-lg transition-shadow">
@@ -69,11 +69,11 @@
                      <div class="mt-2">
                         <h1 class="font-bold text-2xl text-orange-700">CloudRest
                         </h1>
-                        <h2 class="font-medium text-lg text-orange-500">RS:12500.00</h2>
+                        <h2 class="font-medium text-lg text-orange-500">TK:12500.00</h2>
                      </div>
                      <div>
                         <button class="mt-2 bg-orange-600 px-12 py-1 rounded-lg text-white font-medium text-xl hover:bg-orange-800" onclick="orderNow(3)">Order Now</button>
-                        <button class="mt-2 bg-amber-400 px-12 py-1 rounded-lg text-black font-medium text-xl hover:bg-amber-200"><a href="#">Add to cart</a></button>
+                        <button class="mt-2 bg-amber-400 px-12 py-1 rounded-lg text-black font-medium text-xl hover:bg-amber-200" onclick="addToCart('ColudRest ', 12500.00 )">Add to cart</button>
                      </div>
             </div>
             <div class="bg-white p-4 sm:p-6 rounded-lg shadow-md text-center border hover:shadow-lg transition-shadow">
@@ -82,11 +82,11 @@
                      class="h-[150px] sm:h-[200px] w-full object-cover rounded-md">
                      <div class="mt-2">
                         <h1 class="font-bold text-2xl text-orange-700">EdenSleep</h1>
-                        <h2 class="font-medium text-lg text-orange-500">RS:16000.00</h2>
+                        <h2 class="font-medium text-lg text-orange-500">TK:16000.00</h2>
                      </div>
                      <div>
                         <button class="mt-2 bg-orange-600 px-12 py-1 rounded-lg text-white font-medium text-xl hover:bg-orange-800" onclick="orderNow(4)">Order Now</button>
-                        <button class="mt-2 bg-amber-400 px-12 py-1 rounded-lg text-black font-medium text-xl hover:bg-amber-200"><a href="#">Add to cart</a></button>
+                        <button class="mt-2 bg-amber-400 px-12 py-1 rounded-lg text-black font-medium text-xl hover:bg-amber-200" onclick="addToCart('EdenSleep ', 16000.00 )">Add to cart</button>
                      </div>
             </div>
             <div class="bg-white p-4 sm:p-6 rounded-lg shadow-md text-center border hover:shadow-lg transition-shadow">
@@ -95,11 +95,11 @@
                      class="h-[150px] sm:h-[200px] w-full object-cover rounded-md">
                      <div class="mt-2">
                         <h1 class="font-bold text-2xl text-orange-700">LuxeLoom</h1>
-                        <h2 class="font-medium text-lg text-orange-500">RS:18000.00</h2>
+                        <h2 class="font-medium text-lg text-orange-500">TK:18000.00</h2>
                      </div>
                      <div>
                         <button class="mt-2 bg-orange-600 px-12 py-1 rounded-lg text-white font-medium text-xl hover:bg-orange-800" onclick="orderNow(5)">Order Now</button>
-                        <button class="mt-2 bg-amber-400 px-12 py-1 rounded-lg text-black font-medium text-xl hover:bg-amber-200"><a href="#">Add to cart</a></button>
+                        <button class="mt-2 bg-amber-400 px-12 py-1 rounded-lg text-black font-medium text-xl hover:bg-amber-200" onclick="addToCart('LuxeLoom ', 18000.00 )">Add to cart</button>
                      </div>
             </div>
             <div class="bg-white p-4 sm:p-6 rounded-lg shadow-md text-center border hover:shadow-lg transition-shadow">
@@ -108,11 +108,11 @@
                      class="h-[150px] sm:h-[200px] w-full object-cover rounded-md">
                      <div class="mt-2">
                         <h1 class="font-bold text-2xl text-orange-700">ZenLayer</h1>
-                        <h2 class="font-medium text-lg text-orange-500">RS:19000.00</h2>
+                        <h2 class="font-medium text-lg text-orange-500">TK:19000.00</h2>
                      </div>
                      <div>
                         <button class="mt-2 bg-orange-600 px-12 py-1 rounded-lg text-white font-medium text-xl hover:bg-orange-800" onclick="orderNow(6)">Order Now</button>
-                        <button class="mt-2 bg-amber-400 px-12 py-1 rounded-lg text-black font-medium text-xl hover:bg-amber-200"><a href="#">Add to cart</a></button>
+                        <button class="mt-2 bg-amber-400 px-12 py-1 rounded-lg text-black font-medium text-xl hover:bg-amber-200" onclick="addToCart('ZenLayer ', 19000.00 )">Add to cart</button>
                      </div>
             </div>
             <div class="bg-white p-4 sm:p-6 rounded-lg shadow-md text-center border hover:shadow-lg transition-shadow">
@@ -121,11 +121,11 @@
                      class="h-[150px] sm:h-[200px] w-full object-cover rounded-md">
                      <div class="mt-2">
                         <h1 class="font-bold text-2xl text-orange-700">StellarFrame</h1>
-                        <h2 class="font-medium text-lg text-orange-500">RS:13000.00</h2>
+                        <h2 class="font-medium text-lg text-orange-500">TK:13000.00</h2>
                      </div>
                      <div>
                         <button class="mt-2 bg-orange-600 px-12 py-1 rounded-lg text-white font-medium text-xl hover:bg-orange-800" onclick="orderNow(7)">Order Now</button>
-                        <button class="mt-2 bg-amber-400 px-12 py-1 rounded-lg text-black font-medium text-xl hover:bg-amber-200"><a href="#">Add to cart</a></button>
+                        <button class="mt-2 bg-amber-400 px-12 py-1 rounded-lg text-black font-medium text-xl hover:bg-amber-200" onclick="addToCart('SetellarFrame ', 13000.00 )">Add to cart</button>
                      </div>
             </div>
             <div class="bg-white p-4 sm:p-6 rounded-lg shadow-md text-center border hover:shadow-lg transition-shadow">
@@ -134,29 +134,39 @@
                      class="h-[150px] sm:h-[200px] w-full object-cover rounded-md">
                      <div class="mt-2">
                         <h1 class="font-bold text-2xl text-orange-700">Harmony Plush</h1>
-                        <h2 class="font-medium text-lg text-orange-500">RS:17000.00</h2>
+                        <h2 class="font-medium text-lg text-orange-500">TK:17000.00</h2>
                      </div>
                      <div>
                         <button class="mt-2 bg-orange-600 px-12 py-1 rounded-lg text-white font-medium text-xl hover:bg-orange-800" onclick="orderNow(8)">Order Now</button>
-                        <button class="mt-2 bg-amber-400 px-12 py-1 rounded-lg text-black font-medium text-xl hover:bg-amber-200"><a href="#">Add to cart</a></button>
+                        <button class="mt-2 bg-amber-400 px-12 py-1 rounded-lg text-black font-medium text-xl hover:bg-amber-200" onclick="addToCart('Harmony Pulsh ', 17000.00 )">Add to cart</button>
                      </div>
             </div>
         </div>
     </section>
     
     <div>
-      <div id="cartModal" class="fixed inset-0 bg-black bg-opacity-50 hidden  justify-center items-center flex">
-         <div class="bg-white w-96 p-6 rounded-md">
-             <h3 class="text-lg font-bold mb-4">Cart Details</h3>
-             <ul id="cartItems" class="mb-4">
-                 <!-- Cart items will be dynamically added here -->
-             </ul>
-             <div class="flex justify-between">
-                 <button class="bg-green-600 text-white px-4 py-2 rounded-md" onclick="checkout()">Checkout</button>
-                 <button class="bg-red-600 text-white px-4 py-2 rounded-md" onclick="toggleCart()">Close</button>
-             </div>
-         </div>
-     </div>
+    <div id="cartModal" class="fixed inset-0 bg-black bg-opacity-50 hidden justify-center items-center flex">
+        <div class="bg-white w-96 p-6 rounded-md">
+            <h3 class="text-lg font-bold mb-4">Cart Details</h3>
+            <ul id="cartItems" class="mb-4">
+                <!-- Cart items will be dynamically added here -->
+            </ul>
+            <div class="flex justify-between">
+                <button class="bg-green-600 text-white px-4 py-2 rounded-md">
+                    <a href="payment.php">Checkout</a>
+                </button>
+                <button class="bg-red-600 text-white px-4 py-2 rounded-md" onclick="toggleCart()">Close</button>
+            </div>
+        </div>
+    </div>
+    <!-- Cart badge -->
+    <div class="fixed top-4 right-4">
+        <button class="bg-gray-700 text-white px-4 py-2 rounded-md relative" onclick="toggleCart()">
+            Cart <span id="cartBadge" class="absolute -top-2 -right-2 bg-red-500 text-white text-xs w-5 h-5 rounded-full hidden flex items-center justify-center"></span>
+        </button>
+    </div>
+</div>
+
     <section>
         <div id="footer">
 

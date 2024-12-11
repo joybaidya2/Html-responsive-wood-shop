@@ -26,12 +26,13 @@ function showProductDetails() {
                         </button>
                     </div>
                     <!-- Payment Button -->
-                    <button onclick="loadPaymentDetails()"class="mt-4 bg-green-500 text-white px-6 py-2 rounded hover:bg-green-600 transition">
+                    <a href="payment.php" onclick="loadPaymentDetails()"class="mt-4 bg-green-500 text-white text-center px-6 py-2 rounded hover:bg-green-600 transition">
                         Payment
-                    </button>
+                    </a>
                 </div>
             </div>
         `;
+        
   
         // Function to simulate a "Buy Now" action
         function paymentNow() {

@@ -21,11 +21,11 @@
             <div class="flex flex-col items-start justify-end h-full px-4 lg:px-20 pb-6 text-white">
                 <nav class="text-lg sm:text-xl lg:text-2xl font-bold space-x-2">
                     <button class="hover:text-orange-400">
-                        <a href="index.html">Home</a>
+                        <a href="index.php">Home</a>
                     </button>
                     /
                     <button class="hover:text-orange-400">
-                        <a href="contact.html">About Us</a>
+                        <a href="contact.php">About Us</a>
                     </button>
                 </nav>
             </div>

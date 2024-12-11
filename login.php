@@ -29,7 +29,7 @@
      <div class="denger pl-16 text-red-500 font-serif font-bold text-xl">Your password doesn't match!</div>
     <?php } ?>
     <?php if(isset($_GET["user"]) && $_GET["user"] == "true" ) {?>
-     <div class="denger pl-20 text-red-500 font-serif font-bold text-xl">You have a create a account!</div>
+     <div class="denger pl-28 text-red-500 font-serif font-bold text-xl">You crate an account!</div>
     <?php } ?>
                 <form action="login_action.php" method="POST" class="space-y-4">
                     <div>

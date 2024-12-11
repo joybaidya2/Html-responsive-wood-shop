@@ -21,7 +21,7 @@
             <div class="flex flex-col items-start justify-end h-full px-4 lg:px-20 pb-6 text-white">
                 <nav class="text-lg sm:text-xl lg:text-2xl font-bold space-x-2">
                     <button class="hover:text-orange-300 bg-black px-4 py-1 rounded-md">
-                        <a href="index.php">Home</a>
+                        <a href="index.html">Home</a>
                     </button>
                     /
                     <button class="hover:text-orange-300 bg-black px-4 py-1 rounded-md">

@@ -306,6 +306,63 @@
         </div>
     </section>
 
+<section class="mt-24">
+<h2 class="text-3xl font-bold text-center text-orange-600 mb-6 italic">What Our Clients Say</h2>
+<div id="review-slider" class="relative overflow-hidden w-full h-auto">
+  <div class="flex transition-transform duration-500" id="slides">
+    <!-- Slide 1 -->
+    <div class="min-w-full p-6 bg-white shadow-lg rounded-lg flex-shrink-0 flex flex-col items-center">
+      <img class="h-[250px] w-[230px] rounded-md mb-4" src="joy.jpg" alt="Joy Baidya">
+      <h3 class="text-xl font-semibold text-gray-700">Joy Baidya</h3>
+      <p class="text-gray-500">Web Developer</p>
+      <div class="flex mt-1">
+        <span class="star text-yellow-500">&#9733;</span>
+        <span class="star text-yellow-500">&#9733;</span>
+        <span class="star text-yellow-500">&#9733;</span>
+        <span class="star text-yellow-500">&#9733;</span>
+        <span class="star text-gray-300">&#9734;</span>
+      </div>
+      <p class="mt-4 text-gray-600 text-center text-sm">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac velit elit."</p>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="min-w-full p-6 bg-white shadow-lg rounded-lg flex-shrink-0 flex flex-col items-center">
+      <img class="h-[250px] w-[230px] rounded-md mb-4" src="tamanna.jpg" alt="Tamanna">
+      <h3 class="text-xl font-semibold text-gray-700">Jubira Tamanna</h3>
+      <p class="text-gray-500">UI UX Designer.</p>
+      <div class="flex mt-1">
+        <span class="star text-yellow-500">&#9733;</span>
+        <span class="star text-yellow-500">&#9733;</span>
+        <span class="star text-yellow-500">&#9733;</span>
+        <span class="star text-gray-300">&#9734;</span>
+        <span class="star text-gray-300">&#9734;</span>
+      </div>
+      <p class="mt-4 text-gray-600 text-center text-sm">"Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi."</p>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="min-w-full p-6 bg-white shadow-lg rounded-lg flex-shrink-0 flex flex-col items-center">
+      <img class="h-[250px] w-[230px] rounded-md mb-4" src="saiful.jpg" alt="Saiful Islam">
+      <h3 class="text-xl font-semibold text-gray-700">Saiful Islam</h3>
+      <p class="text-gray-500">Freelancer</p>
+      <div class="flex mt-1">
+        <span class="star text-yellow-500">&#9733;</span>
+        <span class="star text-yellow-500">&#9733;</span>
+        <span class="star text-yellow-500">&#9733;</span>
+        <span class="star text-yellow-500">&#9733;</span>
+        <span class="star text-yellow-500">&#9733;</span>
+      </div>
+      <p class="mt-4 text-gray-600 text-center text-sm">"Duis aute irure dolor in reprehenderit in voluptate velit esse."</p>
+    </div>
+  </div>
+
+  <!-- Navigation Buttons -->
+  <button id="prev" class="absolute top-1/2 left-4 transform -translate-y-1/2 bg-gray-800 text-white px-4 py-2 rounded-full">&#8592;</button>
+  <button id="next" class="absolute top-1/2 right-4 transform -translate-y-1/2 bg-gray-800 text-white px-4 py-2 rounded-full">&#8594;</button>
+</div>
+
+</section>
+
     <section class="mt-20 px-10 sm:px-12">
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div class="h-[400px] sm:h-[500px] md:h-[500px] lg:h-[500px] rounded-tr-[150px] rounded-bl-[150px] bg-cover bg-center"
@@ -380,13 +437,16 @@
         </div>
     </section>
 
+    
 
     <div id="footer">
 
     </div>
+    
     <script src="javascript.js"></script>
     <script src="slider.js"></script>
 
+    
 </body>
 
 </html>
