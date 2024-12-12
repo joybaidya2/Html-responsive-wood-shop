@@ -437,8 +437,6 @@
         </div>
     </section>
 
-    
-
     <div id="footer">
 
     </div>
