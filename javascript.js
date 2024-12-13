@@ -1,5 +1,5 @@
 // Here the navbar and footer works when we use all section same nav and footer section..
-fetch('./navbar.php')
+fetch('./navbar.html')
 .then((response) => response.text())
 .then((data) => {
     document.getElementById('navbar').innerHTML = data;
@@ -7,7 +7,7 @@ fetch('./navbar.php')
 })
 .catch((error) => console.error('Error loading navbar:', error));
 
-fetch('./footer.php')
+fetch('./footer.html')
     .then(response => response.text())
     .then(data => {
         document.getElementById('footer').innerHTML = data;

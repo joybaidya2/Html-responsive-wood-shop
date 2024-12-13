@@ -726,6 +726,6 @@ const products = [
   function orderNow(productId) {
     const product = products.find((p) => p.id === productId);
     localStorage.setItem("productDetails", JSON.stringify(product));
-    window.location.href = "productDetails.php"; 
+    window.location.href = "productDetails.html"; 
   }
   

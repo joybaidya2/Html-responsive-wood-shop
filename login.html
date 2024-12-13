@@ -26,10 +26,10 @@
             <div class="bg-white w-full p-8 rounded-lg shadow-lg">
                 <h1 class="text-3xl font-bold text-center text-gray-800 mb-3">Login to Your Account</h1>
                 <?php if(isset($_GET["failed"]) && $_GET["failed"] == "true" ) {?>
-     <div class="denger pl-16 text-red-500 font-serif font-bold text-xl">Your password doesn't match!</div>
+     <!-- <div class="denger pl-16 text-red-500 font-serif font-bold text-xl">Your password doesn't match!</div> -->
     <?php } ?>
     <?php if(isset($_GET["user"]) && $_GET["user"] == "true" ) {?>
-     <div class="denger pl-28 text-red-500 font-serif font-bold text-xl">You crate an account!</div>
+    <!-- <div class="denger pl-28 text-red-500 font-serif font-bold text-xl">You crate an account!</div> --> 
     <?php } ?>
                 <form action="login_action.php" method="POST" class="space-y-4">
                     <div>
